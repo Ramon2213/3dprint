@@ -98,8 +98,8 @@ body {
 .midsection {
     
 
-    grid-column: 1 / 101;
-    grid-row: 47 / 73;
+    grid-column: 15 / 86;
+    grid-row: 47 / 80;
 }
 .card {
     margin: 10px;
