@@ -134,11 +134,9 @@ img {
     grid-row: 76 / 95;
 }
 #locationsection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 1200px;
+    
+    height: 100%;
+    width: 100%;
     background-image: url(Locations.jpg);
 }
 #locations {
