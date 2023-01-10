@@ -136,7 +136,7 @@ img {
 #locationsection {
     
     height: 100%;
-    width: 100%x;
+    width: 100%;
     background-image: url(Locations.jpg);
     display: flex;
     justify-content: center;  
