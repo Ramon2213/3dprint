@@ -96,8 +96,8 @@ body {
     margin-top: 60px;
 }
 .midsection {
-    display: flex;
-    justify-content: center;
+    
+
     grid-column: 1 / 101;
     grid-row: 47 / 73;
 }
