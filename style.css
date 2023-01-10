@@ -114,10 +114,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
 #image-gallery li {
 
 }
@@ -131,14 +127,16 @@ img {
 
 /* Botsection */
 .botsection {
-    grid-column: 1 / 100;
+    grid-column: 2 / 100;
     grid-row: 76 / 100;
+    background-image: url("locations.jpg");
+    background-size: cover;
 }
 #locationsection {
     
     height: 100%;
     width: 100%;
-    background-image: url(Locations.jpg);
+
     display: flex;
     justify-content: center;  
 }
@@ -161,7 +159,9 @@ img {
     opacity: 1;
 }
 
-
+#locationbackground {
+    max-width: 100%
+}
 
 
 
