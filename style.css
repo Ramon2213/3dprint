@@ -30,45 +30,41 @@ body {
 /* Header */
 .headersection {
     position: fixed;
-
- 
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
     width: 100%;
     margin: 0;
     padding: 0;
     top: 1px;
-    left: 1px;
-
-
+    left:1px;
 }
 #logo {
     height: 50px;
     margin-left: 10px;
     color: seashell;
-
 }
 
 
 #header {
-    z-index: 1;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 10px 0px 0px;
     position: fixed;
+    z-index: 1;
     width: 100%;
     top: 0;
     left: 0;
     height: 69px;
-  
 }
 
 .navbar {
     font-size: 22px;
 }
 
-.navbar > li {
-    display: inline;
+    .navbar > li {
+        display: inline;
     }
 
 
@@ -80,6 +76,7 @@ body {
     position: absolute;
     top: 30px;
     animation: shyguymove 7s linear;
+    z-index: 3;
 }
 
 @keyframes shyguymove {
@@ -88,7 +85,7 @@ body {
     }
 
     to {
-        transform: translateX(5000px);
+        transform: translateX(2000px);
     }
 }
 
