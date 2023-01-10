@@ -4,6 +4,9 @@
     opacity: 0.9;
     
 }
+main {
+    opacity: 0.9;
+}
 
 body {
     font-family: Helvetica;
@@ -28,29 +31,12 @@ body {
 
 
 /* Header */
-.headersection {
-
-    position: fixed;
-    background-color: rgb(0, 0, 0);
-    z-index: 1;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    top: 1px;
-    left:1px;
-}
-
-main {
-    opacity: 0.9;
-}
 
 #logo {
     height: 50px;
     margin-left: 10px;
     color: seashell;
 }
-
-
 #header {
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -64,7 +50,6 @@ main {
     left: 0;
     height: 69px;
 }
-
 .navbar {
     font-size: 22px;
 }
