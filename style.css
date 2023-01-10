@@ -136,8 +136,10 @@ img {
 #locationsection {
     
     height: 100%;
-    width: 100%;
+    width: 100%x;
     background-image: url(Locations.jpg);
+    display: flex;
+    justify-content: center;  
 }
 #locations {
     position: absolute;
@@ -154,9 +156,17 @@ img {
     background-color: black;
     margin: 10px;
     padding: 0px 50px 0px 50px;
-    width: 300px;
+   
     opacity: 1;
 }
+
+
+
+
+
+
+
+
 
 #contact {
     height: 200px;
