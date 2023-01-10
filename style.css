@@ -131,7 +131,7 @@ img {
 /* Botsection */
 .botsection {
     grid-column: 10 / 90;
-    grid-row: 76 / 95;
+    grid-row: 76 / 100;
 }
 #locationsection {
     
@@ -156,7 +156,7 @@ img {
     background-color: black;
     margin: 10px;
     padding: 0px 50px 0px 50px;
-   
+    
     opacity: 1;
 }
 
