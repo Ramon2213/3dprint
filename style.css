@@ -49,6 +49,7 @@ body {
     top: 0;
     left: 0;
     height: 69px;
+    opacity: 1;
 }
 .navbar {
     font-size: 22px;
