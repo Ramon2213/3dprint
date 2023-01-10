@@ -69,6 +69,7 @@ body {
     background: rgb(0, 0, 0);
     grid-column: 12 / 89;
     grid-row: 16 / 24;
+    text-align: center;
 }
 #background {
     width: 100%;
