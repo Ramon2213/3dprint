@@ -31,7 +31,7 @@ body {
 .headersection {
     position: fixed;
 
- 
+    z-index: 1;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -43,6 +43,7 @@ body {
     height: 50px;
     margin-left: 10px;
     color: seashell;
+    z-index: 4;
 }
 
 
