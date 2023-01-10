@@ -1,0 +1,139 @@
+/* Layout */
+* {
+    color: seashell;
+    opacity: 0.9;
+    
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.grid {
+    border: 2px blue solid;
+    width: 100%;
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+}
+
+
+
+
+/* Header */
+.headersection {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    color: seashell;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0px 0px;
+}
+.navbar {
+    font-size: 22px;
+}
+.navbar > li {
+    display: inline;
+}
+
+
+
+
+/* Topsection */
+.topsection {
+    grid-column: 12 / 89;
+    grid-row: 5 / 36;
+}
+#topbanner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 300px;
+    background: rgb(0, 0, 0);
+}
+#background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Midsection*/
+.midtitle {
+    grid-column: 1 / 101;
+    grid-row: 37 / 47;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.midsection {
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / 101;
+    grid-row: 47 / 73;
+}
+.card {
+    margin: 10px;
+    display: flex;
+}
+#image-gallery {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#image-gallery li {
+    list-style: none;
+}
+#image-gallery li img{
+    height:200px;
+    width: 300px;
+}
+
+
+
+/* Botsection */
+.botsection {
+    grid-column: 1 / 11;
+    grid-row: 8 / 11;
+}
+
+.header, .topsection, .midsection, .botsection, .midtitle {
+    border: 2px dodgerblue solid;
+}
+
+
+
+
