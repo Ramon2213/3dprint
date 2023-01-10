@@ -80,7 +80,6 @@ body {
     position: absolute;
     top: 30px;
     animation: shyguymove 7s linear;
-    z-index: 3;
 }
 
 @keyframes shyguymove {
