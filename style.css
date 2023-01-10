@@ -50,6 +50,7 @@ body {
     align-items: center;
     padding: 10px 10px 0px 0px;
 }
+
 .navbar {
     font-size: 22px;
 }
@@ -66,19 +67,20 @@ body {
     grid-row: 5 / 36;
 }
 #topbanner {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    top: 300px;
     background: rgb(0, 0, 0);
+    grid-column: 12 / 89;
+    grid-row: 16 / 24;
 }
 #background {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
