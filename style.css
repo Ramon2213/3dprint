@@ -58,6 +58,27 @@ body {
 }
 
 
+/*shy guys*/
+#shyguy {
+    max-width: 800px;
+    max-height: 40px;
+    left: -900px;
+    position: absolute;
+    top: 30px;
+    animation: shyguymove 7s linear;
+    z-index: 3;
+}
+
+@keyframes shyguymove {
+    from {
+        transform: translateX(10px);
+    }
+
+    to {
+        transform: translateX(2000px);
+    }
+}
+
 
 
 /* Topsection */
