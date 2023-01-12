@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A77DA66-1575-4A4C-80FF-738D02049845}"
 	ProjectSection(SolutionItems) = preProject
+		footer.html = footer.html
+		header.html = header.html
 		index.html = index.html
 		style.css = style.css
 	EndProjectSection
