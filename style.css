@@ -193,11 +193,6 @@ header {
 }
 
 
-
-
-
-
-
 #contact {
     height: 200px;
     display: flex;
@@ -213,6 +208,8 @@ header {
 
 .collectiegrid { 
     margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
@@ -229,4 +226,5 @@ header {
     height: 200px;
     object-fit: cover;
     z-index: 9;
+
 }
