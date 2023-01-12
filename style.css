@@ -288,7 +288,17 @@ header {
 /* add to cart button einde */
 /*collectie grid einde*/
 
-
+.paginacontainer {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 1%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 15 px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
 
 
 
