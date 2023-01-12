@@ -217,6 +217,8 @@ header {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
     align-items: stretch;
+    background-color: dimgrey;
+    z-index: 2;
   }
 .collectiegrid img {
     border: 1px solid #ccc;
