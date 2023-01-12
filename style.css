@@ -219,7 +219,8 @@ header {
     align-items: stretch;
     background-color: dimgrey;
     z-index: 10;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
   }
 .collectiegrid img {
     border: 1px solid #ccc;
