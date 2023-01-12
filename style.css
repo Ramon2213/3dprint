@@ -49,12 +49,12 @@ header {
 }
 
 #header {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px 0px 0px;
     z-index: 1;
+    opacity: 100%;
 }
 .navbar {
     font-size: 22px;
