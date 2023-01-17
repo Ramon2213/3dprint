@@ -87,12 +87,12 @@ header {
 .navigation {
     display: inline-flex;
     margin-right: 2px;
-    text-decoration: none;
+
 }
 
 .navigation ul li.active a, .navigation ul li a:hover {
 
-
+    text-decoration: underline;
     color: #dbdbdb40;
     border-radius: 4px;
     padding: 4px;
