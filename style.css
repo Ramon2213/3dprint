@@ -91,8 +91,10 @@ header {
 
 .navigation ul li.active a, .navigation ul li a:hover {
     text-decoration: none;
-    background-color: #101010ac;
+
     color: #dbdbdb40;
+    border-radius: 4px;
+    padding: 4px;
   
 }
 
