@@ -72,6 +72,7 @@ header {
     padding: 10px 10px 0px 0px;
     z-index: 1;
     opacity: 100%;
+    padding: 4px;
 }
 .navbar {
     font-size: 22px;
@@ -94,11 +95,9 @@ header {
 
     color: #dbdbdb40;
     border-radius: 4px;
-    padding: 4px;
+   
   
 }
-
-
 
 
 
