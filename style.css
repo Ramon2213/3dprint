@@ -64,6 +64,9 @@ header {
 .navbar > li {
     display: inline;
     }
+.navbutton{
+    margin-left: 5px;
+}
 
 
 /*shy guys*/
