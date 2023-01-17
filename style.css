@@ -279,7 +279,11 @@ header {
     background-color: #0000002e;
     border: 1px solid;
     border-color: #a0a0a039;
-
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     padding-left: 6%;
     padding-top: 5%;
     padding-bottom: 3%;
@@ -293,6 +297,7 @@ header {
     border-radius: 12px;
     padding: 0px;
     cursor: pointer;
+    opacity: 100%;
 }
 .front2 {
     display: inline-block;
@@ -301,6 +306,7 @@ header {
     background: rgb(235, 26, 26);
     color: white;
     transform: translateY(-4px);
+    opacity: 100%;
 }
 .pushable2:active .front {
     transform: translateY(-2px);
