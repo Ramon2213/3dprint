@@ -88,8 +88,8 @@ header {
     display: inline-flex;
     margin-right: 2px;
 }
-li.active {
-    color: #640200;
+.current-link {
+    color: #76bfb6;
 }
 
 /*shy guys*/
