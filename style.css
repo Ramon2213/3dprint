@@ -108,7 +108,7 @@ header {
     left: -900px;
     position: absolute;
     top: 30px;
-    animation: shyguymove 10s linear;
+    animation: shyguymove 7s linear;
     z-index: 3;
 }
 
