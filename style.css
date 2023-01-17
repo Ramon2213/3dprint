@@ -232,3 +232,9 @@ header {
     z-index: 9;
 
 }
+
+article {
+    background-color: #48484839;
+    border-radius: 5px;
+    padding: 1%;
+}
