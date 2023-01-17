@@ -88,10 +88,6 @@ header {
     display: inline-flex;
     margin-right: 2px;
 }
-.current-link {
-    color: #ecf84b;
-}
-
 li.active {
     color: #640200;
 }
