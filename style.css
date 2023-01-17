@@ -105,22 +105,29 @@ header {
 
 /*shy guys*/
 #shyguy {
-    max-width: 800px;
-    max-height: 40px;
+
     left: -900px;
     position: absolute;
     top: 30px;
-    animation: shyguymove 7s linear;
+    animation: shyguymove 10s linear;
     z-index: 3;
 }
 
+
+
 @keyframes shyguymove {
-    from {
-        transform: translateX(10px);
+    0% {
+        max-width: 800px;
+        max-height: 10px;
+        left: -80%;
+        top: 0%;
     }
 
-    to {
-        transform: translateX(2000px);
+    100% {
+        max-width: 800px;
+        max-height: 90px;
+        left: 100%;
+        top: 20%;
     }
 }
 
