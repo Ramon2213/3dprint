@@ -255,6 +255,6 @@ article {
 }
 
 .articlesection {
-    grid-column: 1 / 89;
+    grid-column: 1   / 89;
     grid-row: 5 / 36;
 }
