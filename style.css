@@ -84,13 +84,14 @@ header {
     margin-left: 3px;
 
 }
-.navigation{
+.navigation {
     display: inline-flex;
     margin-right: 2px;
+    text-decoration: none;
 }
 
 .navigation ul li.active a, .navigation ul li a:hover {
-    text-decoration: none;
+
 
     color: #dbdbdb40;
     border-radius: 4px;
