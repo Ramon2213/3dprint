@@ -89,11 +89,10 @@ header {
     margin-right: 2px;
 }
 
-
-
 .navigation ul li.active a, .navigation ul li a:hover {
     text-decoration: none;
-    background-color: #101010ac
+    background-color: #101010ac;
+    color: #dbdbdb40;
   
 }
 
