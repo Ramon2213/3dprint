@@ -93,7 +93,8 @@ header {
 
 .navigation ul li.active a, .navigation ul li a:hover {
     text-decoration: none;
-    color: #fff;
+    background-color: #101010ac
+  
 }
 
 
