@@ -88,7 +88,7 @@ header {
     display: inline-flex;
     margin-right: 2px;
 }
-.navbar li a.current {
+.navigation li a.current {
     color: #ffffff;
     background: #f1d74c;
 }
