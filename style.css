@@ -80,9 +80,9 @@ header {
 .navbar > li {
     display: inline;
     }
-.navbutton{
+.navbutton {
     margin-left: 3px;
-
+    text-decoration: none;
 }
 .navigation {
     display: inline-flex;
