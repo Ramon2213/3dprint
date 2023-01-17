@@ -92,6 +92,10 @@ header {
     color: #ecf84b;
 }
 
+li.active {
+    color: #640200;
+}
+
 /*shy guys*/
 #shyguy {
     max-width: 800px;
