@@ -374,6 +374,7 @@ article {
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 700px;
 }
 
     .wrapper h1 {
