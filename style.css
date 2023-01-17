@@ -55,6 +55,7 @@ header {
     padding: 5px;
     margin-top: 14px;
     margin-left: 15%;
+
    
  
   
@@ -87,7 +88,7 @@ header {
 }
 .navigation{
     display: inline-flex;
-    margin-right: 2px;
+    margin-right: 1%;
 }
 
 .navigation ul li.active a, .navigation ul li a:hover {
