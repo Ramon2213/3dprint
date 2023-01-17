@@ -80,19 +80,18 @@ header {
 .navbar > li {
     display: inline;
     }
-.navbutton {
+.navbutton{
     margin-left: 3px;
-    text-decoration: none;
+
 }
-.navigation {
+.navigation{
     display: inline-flex;
     margin-right: 2px;
-
 }
 
 .navigation ul li.active a, .navigation ul li a:hover {
+    text-decoration: none;
 
-    text-decoration: underline;
     color: #dbdbdb40;
     border-radius: 4px;
     padding: 4px;
