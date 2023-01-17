@@ -197,7 +197,7 @@ header {
     max-width: 100%
 }
 
-
+/*Footer*/
 #contact {
     height: 200px;
     display: flex;
@@ -210,6 +210,7 @@ header {
     margin-left: 20px;
 }
 
+/*Collectie*/
 
 .collectiegrid {
     margin-top: 7%;
@@ -234,9 +235,54 @@ header {
     height: 200px;
     object-fit: cover;
     z-index: 9;
+}
+.product {
+    background-color: #0000002e;
+    border: 1px solid;
+    border-color: #a0a0a039;
 
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+}
+/*cartbutton*/
+.pushable2 {
+    font-size: 10px;
+    background: rgb(144, 14, 14);
+    border: none;
+    border-radius: 12px;
+    padding: 0px;
+    cursor: pointer;
+}
+.front2 {
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 12px;
+    background: rgb(235, 26, 26);
+    color: white;
+    transform: translateY(-4px);
+}
+.pushable2:active .front {
+    transform: translateY(-2px);
+}
+.pushable2:focus:not(:focus-visible) {
+    outline: none;
+}
+.front2 {
+    transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+.pushable2:hover .front2 {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+.pushable2:active .front2 {
+    transform: translateY(-2px);
+    transition: transform 34ms;
 }
 
+
+/*articles*/
 article {
     background-color: #48484839;
     border-radius: 5px;
