@@ -88,7 +88,10 @@ header {
     display: inline-flex;
     margin-right: 2px;
 }
-
+#navigation li a.current {
+    color: #ffffff;
+    background: #f1d74c;
+}
 
 /*shy guys*/
 #shyguy {
