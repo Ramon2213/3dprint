@@ -1,5 +1,13 @@
-<head>
+﻿<head>
     <link href="style.css" type="text/css" rel="stylesheet">
+
+    <script>
+        currentLinks = document.querySelectorAll('a[href="' + document.URL + '"]')
+        currentLinks.forE‌​ach(function (link) {
+            link.className += ' current-link')
+        });
+    </script>
+
 </head>
 
 <header>
