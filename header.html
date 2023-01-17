@@ -5,10 +5,7 @@
 
 
     <script>
-        currentLinks = document.querySelectorAll('a[href="' + document.URL + '"]')
-        currentLinks.forE‌​ach(function (link) {
-            link.className += ' current-link')
-        });
+        document.querySelectorAll('a[href="' + document.URL + '"]').forEach(function (elem) { elem.className += ' current-link' });
     </script>
 
 
