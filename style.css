@@ -251,9 +251,10 @@ article {
     grid-template-rows: repeat(100, 1fr);
     grid-column-gap: 1px;
     grid-row-gap: 1px;
+
 }
 
 .articlesection {
-    grid-column: 12 / 89;
+    grid-column: 1 / 89;
     grid-row: 5 / 36;
 }
